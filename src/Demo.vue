@@ -11,7 +11,6 @@
           <p><b>show[Boolean]</b> Show it or not</p>
           <p><b>index[Number]</b> Like css stylesheet property z-index, 9999 by default</p>
           <p><b>size[Number]</b> 2-5 are recommended</p>
-          <p><b>Float[String]</b> Floating string are left right center,change the position further by adding theses</p>
         </div>
       </div>
       <button @click="showLoading" class="btn btn-lg btn-primary">Open Loading</button>

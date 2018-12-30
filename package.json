@@ -1,6 +1,6 @@
 {
   "name": "vue-lite-spinner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a loading components for vue",
   "author": "virs",
   "private": false,
@@ -10,6 +10,12 @@
     "type": "git",
     "url": "https://github.com/virskor/vue-loading.git"
   },
+  "keywords": [
+    "vue",
+    "vue simple loading",
+    "vue loading components",
+    "vue spinner"
+  ],
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",

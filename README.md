@@ -1,4 +1,4 @@
-# vue-loading
+# vue-lite-spinner
 
 > a simple loading components for vue
 
@@ -43,4 +43,3 @@ make sure your browser support css3
 <p><b>show[Boolean]</b> Show it or not</p>
 <p><b>index[Number]</b> Like css stylesheet property z-index, 9999 by default</p>
 <p><b>size[Number]</b> 2-5 are recommended</p>
-<p><b>Float[String]</b> Floating string are left right center,change the position further by adding theses</p>
