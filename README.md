@@ -11,10 +11,10 @@
 
 ``` bash
 # install by NPM
-npm install vue-simple-loading
+npm install vue-lite-spinner
 
 # or Yarn
-yarn add vue-simple-loading
+yarn add vue-lite-spinner
 ```
 ## Notice
 make sure your browser support css3
@@ -22,7 +22,7 @@ make sure your browser support css3
 ## Usage
 
 ``` js
-    import {loading} from 'vue-simple-loading';
+    import {loading} from 'vue-lite-spinner';
     export default {
         ...,
         components: {
