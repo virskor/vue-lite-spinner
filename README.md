@@ -11,10 +11,10 @@
 
 ``` bash
 # install by NPM
-npm install vue-loading
+npm install vue-simple-loading
 
 # or Yarn
-yarn add vue-loading
+yarn add vue-simple-loading
 ```
 ## Notice
 make sure your browser support css3
@@ -22,7 +22,7 @@ make sure your browser support css3
 ## Usage
 
 ``` js
-    import {loading} from '@/components/';
+    import {loading} from 'vue-simple-loading';
     export default {
         ...,
         components: {
