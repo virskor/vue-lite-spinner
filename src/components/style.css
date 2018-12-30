@@ -1,0 +1,77 @@
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.vue-loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.vue-loading .loader {
+    border: 10px solid #f3f3f3; /* Light grey */
+    border-top: 10px solid #3498db; /* Blue */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.55);
+}
+.vue-loading .text{
+    -moz-user-select: none; 
+    -o-user-select:none; 
+    -khtml-user-select:none; 
+    -webkit-user-select:none; 
+    -ms-user-select:none; 
+    user-select:none;
+    color: #dedede;
+}
+.vue-loading .position-center{
+    min-width: 5rem;
+    min-height: 3rem;
+    padding: .4rem;
+    /** background: #000000;*/
+    margin: 25% auto;
+}
+.vue-loading .position-top{
+    position: absolute;
+    top: 0;
+    min-width: 5rem;
+    height: 3rem;
+    padding: .4rem;
+    /** background: #000000;*/
+}
+.vue-loading .position-bottom{
+    position: absolute;
+    bottom: 5rem;
+    min-width: 5rem;
+    height: 3rem;
+    padding: .4rem;
+    /** background: #000000;*/
+}
+.vue-loading .position-center .loader{
+    margin: 0 auto;
+}
+.vue-loading .position-top .loader{
+    float: left;
+}
+.vue-loading .position-bottom .loader{
+    float: left;
+}
+.vue-loading .position-center .loader{
+    margin: 0 auto;
+}
+.vue-loading .position-center .text{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.vue-loading .position-top .text{
+    float: left;
+    font-size: 1.2rem;
+}
+.vue-loading .position-bottom .text{
+    float: left;
+    font-size: 1.2rem;
+}
