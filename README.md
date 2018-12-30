@@ -1,21 +1,42 @@
 # vue-loading
 
-> a loading components for vue
+> a simple loading components for vue
 
-## Build Setup
+[Online Demo](https://virskor.github.io/vue-loading/)
+[Github](https://github.com/virskor/vue-loading.git)
+
+## Installation
 
 ``` bash
-# install dependencies
-npm install
+# install by NPM
+npm install vue-loading
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
+# or Yarn
+yarn add vue-loading
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Usage
+
+``` js
+    import {loading} from '@/components/';
+    export default {
+        ...,
+        components: {
+            loading
+        }
+    }
+```
+
+``` html
+    <loading :position="position" :size="size" :text="text" :show="show"></loading>
+```
+
+## Parameter
+
+<p><b>background[String]</b> Background can be a string like #000000 or rgba(0, 0, 0, .32)</p>
+<p><b>position[String]</b> You can select a position to show your loader below</p>
+<p><b>text[String]</b> Text strings that you want to tell your user</p>
+<p><b>show[Boolean]</b> Show it or not</p>
+<p><b>index[Number]</b> Like css stylesheet property z-index, 9999 by default</p>
+<p><b>size[Number]</b> 2-5 are recommended</p>
+<p><b>Float[String]</b> Floating string are left right center,change the position further by adding theses</p>

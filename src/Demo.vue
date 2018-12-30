@@ -14,21 +14,21 @@
           <p><b>Float[String]</b> Floating string are left right center,change the position further by adding theses</p>
         </div>
       </div>
-      <button @click="showLoading" class="openLoading">Open Loading</button>
+      <button @click="showLoading" class="btn btn-lg btn-primary">Open Loading</button>
       <loading :position="position" :size="size" :text="text" :show="show"></loading>
       <div class="options">
         <p>select a position to show</p>
-        <select v-model="position">
+        <select class="form-control"  v-model="position">
           <option v-for="(item, index) in positions" :key="index" :value="item">{{item}}</option>
         </select>
       </div>
       <div class="options">
         <p>Alert script to your customer:</p>
-        <input v-model="text"/>
+        <input class="form-control"  v-model="text"/>
       </div>
       <div class="options">
         <p>Custom your size(2-5 are recommended):</p>
-        <input v-model="size"/>
+        <input class="form-control"  v-model="size"/>
       </div>
     </div>
   </div>
@@ -43,7 +43,7 @@ export default {
     return{
       show: false,
       position: 'center',
-      text: 'Trying a simple usage...',
+      text: '正在载入数据...',
       size: 4,
       positions: [
         'top',
@@ -71,27 +71,9 @@ export default {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
   color: #2c3e50;
   margin-top: 60px;
-}
-#app .demo .openLoading{
-  position: relative;
-  width: 200px;
-  height: 50px;
-  color: #ffffff;
-  cursor: pointer;
-  font-size: 1rem;
-  border: 1px solid #479bf0;
-  background: #479bf0;
-  border-radius: 4px;
-  outline: none;
-  -moz-user-select: none; 
-  -o-user-select:none; 
-  -khtml-user-select:none; 
-  -webkit-user-select:none; 
-  -ms-user-select:none; 
-  user-select:none;
+  padding: 2rem;
 }
 #app .demo .options{
   border: 1px solid #dedede;
