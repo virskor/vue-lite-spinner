@@ -5,6 +5,8 @@
 [Online Demo](https://virskor.github.io/vue-loading/)
 [Github](https://github.com/virskor/vue-loading.git)
 
+<img width="50px" src="https://image.flaticon.com/icons/png/512/189/189768.png">
+
 ## Installation
 
 ``` bash
@@ -14,6 +16,8 @@ npm install vue-loading
 # or Yarn
 yarn add vue-loading
 ```
+## Notice
+make sure your browser support css3
 
 ## Usage
 
