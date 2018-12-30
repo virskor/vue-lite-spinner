@@ -2,8 +2,8 @@
 
 > a simple loading components for vue
 
-[Online Demo](https://virskor.github.io/vue-loading/)
-[Github](https://github.com/virskor/vue-loading.git)
+[Online Demo](https://virskor.github.io/vue-lite-spinner/)
+[Github](https://github.com/virskor/vue-lite-spinner.git)
 
 <img width="50px" src="https://image.flaticon.com/icons/png/512/189/189768.png">
 

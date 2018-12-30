@@ -33,7 +33,7 @@ export default {
         return createElement(
             'div',
             {
-                class: ['vue-loading'],
+                class: ['vue-lite-spinner'],
                 style: {
                     display: this.display,
                     background:  this.getBackgroundColor,
